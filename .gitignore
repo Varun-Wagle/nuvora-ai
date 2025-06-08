@@ -1,0 +1,59 @@
+# React Native / Expo
+node_modules/
+.expo/
+.expo-shared/
+npm-debug.log
+yarn-error.log
+*.expo*
+*.DS_Store
+dist/
+android/
+ios/
+web-build/
+*.log
+
+# Environment variables
+.env
+.env.*
+/backend/.env
+
+# VS Code settings
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Python (Backend - Flask)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+instance/
+.env/
+venv/
+.env.local
+.env.production
+*.sqlite3
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+
+# Expo generated credentials
+*.keystore
+*.jks
